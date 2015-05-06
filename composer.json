@@ -12,9 +12,12 @@
             "role": "Developer"
         }
     ],
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/alexandredes/PHPoAuthLib"
+    }],
     "require": {
-        "php": ">=5.3",     
-        "lusitanian/oauth": "~0.3"
+        "php": ">=5.3"
     },
     "require-dev": {
         "illuminate/support": "~4"
